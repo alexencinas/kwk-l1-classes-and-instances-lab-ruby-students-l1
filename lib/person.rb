@@ -5,7 +5,9 @@ class Person
   
   def initialize(name)
     
-    @adele_golderbg = adele_golderbg
-    @alan_kay = alan_kay
+    @name=name
+    
   end 
 end 
+
+person1 = Person.new("")
