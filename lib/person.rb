@@ -10,4 +10,7 @@ class Person
   end 
 end 
 
-person1 = Person.new("")
+person1 = Person.new("adele goldberg")
+person2 = Person.new("alan kay")
+
+puts person1.name
