@@ -1,6 +1,7 @@
 # person.rb
 class Person
-  def initialize(adele_golderbg, alan_kay)
+  attr_accessor :person
+  def initialize(person1, person2)
     @adele_golderbg = adele_golderbg
     @alan_kay = alan_kay
   end 
