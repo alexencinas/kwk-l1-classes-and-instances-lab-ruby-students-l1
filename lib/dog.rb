@@ -8,7 +8,6 @@ class Dog
  dog1.Dog.new("fido")
  dog2.Dog.new("snoopy")
  dog3.Dog.new("lassie")
- 
-end 
+
 
 puts dog1.name
