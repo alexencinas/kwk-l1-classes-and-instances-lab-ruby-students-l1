@@ -1,7 +1,9 @@
 # dog.rb
 class Dog
-  dog1 = "fido"
-  dog2 = "snoopy"
-  dog3 = "lassie"
-  
-  
+ def initialize(fido, snoopy, lassie)
+   @fido = fido
+   @snoopy = snoopy
+   @lassie = lassie
+ end
+end 
+ 
